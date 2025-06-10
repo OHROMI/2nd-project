@@ -20,7 +20,7 @@ def get_top_10_market_cap_tickers():
         "Alphabet (Google)": "GOOGL", # 또는 GOOG
         "Amazon": "AMZN",
         "Meta Platforms": "META",
-        "Berkshire Hathaway": "BRK-A", # 또는 BRK-B (클래스 B 주식)
+        "Berkshire Hathaway": "BRK.A", # 또는 BRK.B (클래스 B 주식)
         "Eli Lilly and Company": "LLY",
         "TSMC": "TSM",
         "Johnson & Johnson": "JNJ"
