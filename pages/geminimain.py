@@ -8,12 +8,12 @@ st.title("🇵🇹 포르투갈 주요 관광지 가이드")
 
 st.markdown("""
 이 가이드는 Streamlit과 Folium을 활용하여 포르투갈의 아름다운 주요 관광지들을 소개합니다.
-각 도시의 매력을 탐험하고, 인터랙티브 지도를 통해 위치를 확인해보세요!
+각 도시의 매력을 탐험하고, 인터랙티브 지도를 통해 위치를 확인해 보세요!
 """)
 
 # --- 서론 ---
 st.header("✨ 포르투갈, 매력적인 여행지")
-st.image("https://images.unsplash.com/photo-1601009180735-a131804f5e1f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리스본 25 데 아브릴 다리와 크리스투 헤이")
+st.image("https://images.pexels.com/photos/10312601/pexels-photo-10312601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="리스본의 25 데 아브릴 다리와 크리스투 헤이 전경")
 st.markdown("""
 **포르투갈**은 풍부한 역사, 아름다운 해안선, 맛있는 음식, 그리고 활기찬 문화가 어우러진 매력적인 나라입니다.
 고대 로마 유적부터 중세 성곽, 화려한 마누엘 양식 건축물까지 다양한 볼거리를 제공하며,
@@ -27,15 +27,15 @@ st.header("🏰 1. 리스본 (Lisbon)")
 st.subheader("포르투갈의 활기찬 수도")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1549429532-68048227d825?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="벨렝 탑")
-    st.image("https://images.unsplash.com/photo-1606771037568-15401340b033?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리스본 대성당")
+    st.image("https://images.pexels.com/photos/13593026/pexels-photo-13593026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="벨렝 탑 (Torre de Belém)")
+    st.image("https://images.pexels.com/photos/13600100/pexels-photo-13600100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="리스본 대성당 (Sé de Lisboa)")
 with col2:
     st.markdown("""
     **리스본**은 포르투갈의 수도이자 가장 큰 도시입니다. 테주 강변에 위치한 언덕 도시로, 아름다운 전망과 활기찬 분위기가 특징입니다.
 
     **주요 관광지:**
-    * **벨렝 탑 (Belém Tower):** 유네스코 세계문화유산으로 지정된 마누엘 양식의 아름다운 요새. 대항해시대의 상징입니다.
-    * **제로니무스 수도원 (Jerónimos Monastery):** 역시 유네스코 세계문화유산으로, 포르투갈의 번성했던 시대를 보여주는 웅장한 건축물입니다. 바스쿠 다 가마의 묘지가 있습니다.
+    * **벨렝 탑 (Belém Tower):** 유네스코 세계문화유산으로 지정된 마누엘 양식의 아름다운 요새예요. 대항해시대의 상징이죠.
+    * **제로니무스 수도원 (Jerónimos Monastery):** 역시 유네스코 세계문화유산으로, 포르투갈의 번성했던 시대를 보여주는 웅장한 건축물입니다. 바스쿠 다 가마의 묘지가 이곳에 있어요.
     * **알파마 지구 (Alfama District):** 리스본에서 가장 오래된 지구로, 좁은 골목길, 파두 음악, 그리고 리스본 성의 아름다운 전망을 제공합니다.
     * **상 조르제 성 (São Jorge Castle):** 리스본 시내를 한눈에 내려다볼 수 있는 고대 성곽입니다.
     * **산타 주스타 엘리베이터 (Santa Justa Lift):** 에펠탑의 제자인 라울 드 보쉬에가 설계한 철제 엘리베이터로, 리스본의 멋진 전망을 제공합니다.
@@ -66,8 +66,8 @@ st.header("🍷 2. 포르투 (Porto)")
 st.subheader("도우루 강의 도시, 포트 와인의 고향")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1598466100236-81585816bb6e?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리베이라 지구")
-    st.image("https://images.unsplash.com/photo-1582236371755-d3e91129aa24?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="동 루이스 1세 다리")
+    st.image("https://images.pexels.com/photos/2085376/pexels-photo-2085376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="포르투 리베이라 지구")
+    st.image("https://images.pexels.com/photos/10313017/pexels-photo-10313017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="동 루이스 1세 다리")
 with col2:
     st.markdown("""
     **포르투갈 북부**의 주요 도시이자 **포트 와인**의 본고장인 **포르투**는 도우루 강변의 아름다운 풍경과 역사적인 건축물로 유명합니다.
@@ -104,8 +104,8 @@ st.header(" fairytale 3. 신트라 (Sintra)")
 st.subheader("동화 같은 성들이 있는 로맨틱한 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1550974864-f6515b6728c3?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="페나 성")
-    st.image("https://images.unsplash.com/photo-1616428616182-3682a853751a?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="킨타 다 헤갈레이라")
+    st.image("https://images.pexels.com/photos/10313010/pexels-photo-10313010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="페나 성 (Palácio Nacional da Pena)")
+    st.image("https://images.pexels.com/photos/10312959/pexels-photo-10312959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="킨타 다 헤갈레이라 (Quinta da Regaleira)")
 with col2:
     st.markdown("""
     **리스본 근교**에 위치한 **신트라**는 유네스코 세계문화유산으로 지정된 로맨틱한 산악 도시입니다.
@@ -140,8 +140,8 @@ st.header("🏖️ 4. 파루 & 알가르베 (Faro & Algarve)")
 st.subheader("아름다운 해변과 햇살 가득한 남부 지역")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="알가르베 해안선")
-    st.image("https://images.unsplash.com/photo-1594950005081-30c1737e403d?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="파루 구시가지")
+    st.image("https://images.pexels.com/photos/10313106/pexels-photo-10313106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="알가르베 해안선")
+    st.image("https://images.pexels.com/photos/10312999/pexels-photo-10312999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="파루 구시가지 (Cidade Velha de Faro)")
 with col2:
     st.markdown("""
     **포르투갈 최남단**에 위치한 **알가르베** 지역은 세계적으로 유명한 아름다운 해변과 골프 코스로 명성이 높습니다.
@@ -177,8 +177,8 @@ st.header("🛶 5. 아베이루 (Aveiro)")
 st.subheader("포르투갈의 베네치아")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1595166297072-f852d4323c2a?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="몰리세이루스 배")
-    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="운하와 아르누보 건물")
+    st.image("https://images.pexels.com/photos/10312658/pexels-photo-10312658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="아베이루 몰리세이루스 보트")
+    st.image("https://images.pexels.com/photos/10313098/pexels-photo-10313098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="아베이루 운하와 아르누보 건물")
 with col2:
     st.markdown("""
     **포르투갈 중부**에 위치한 **아베이루**는 "포르투갈의 베네치아"라고 불리며,
@@ -212,8 +212,8 @@ st.header(" 🎓 6. 코임브라 (Coimbra)")
 st.subheader("유서 깊은 대학 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1629851458992-8015cf137ff7?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="코임브라 대학교")
-    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="코임브라 구 대성당")
+    st.image("https://images.pexels.com/photos/10313093/pexels-photo-10313093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="코임브라 대학교 전경")
+    st.image("https://images.pexels.com/photos/10313101/pexels-photo-10313101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="코임브라 구 대성당 (Sé Velha de Coimbra)")
 with col2:
     st.markdown("""
     **포르투갈 중부**에 위치한 **코임브라**는 오랜 역사와 전통을 자랑하는 대학 도시입니다.
@@ -249,8 +249,8 @@ st.header(" medieval 7. 오비두스 (Óbidos)")
 st.subheader("중세 성벽 마을")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1550974864-f6515b6728c3?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="오비두스 성")
-    st.image("https://images.unsplash.com/photo-1614275306354-150244439c36?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="오비두스 마을 전경")
+    st.image("https://images.pexels.com/photos/10312678/pexels-photo-10312678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="오비두스 성곽 마을")
+    st.image("https://images.pexels.com/photos/10312680/pexels-photo-10312680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="오비두스 성벽에서 바라본 마을 전경")
 with col2:
     st.markdown("""
     **리스본에서 북쪽**으로 약 1시간 거리에 위치한 **오비두스**는 완벽하게 보존된 중세 성벽 마을입니다.
@@ -283,8 +283,8 @@ st.header("🙏 8. 파티마 (Fátima)")
 st.subheader("성모 발현지, 종교적 순례지")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="파티마 성모 발현 기념 성당")
-    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="로사리오의 성모 대성당 (일반적인 파티마 전경)")
+    st.image("https://images.pexels.com/photos/10313103/pexels-photo-10313103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="파티마 성모 발현 기념 성당 광장")
+    st.image("https://images.pexels.com/photos/10313102/pexels-photo-10313102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="파티마 지성모 삼위일체 대성당")
 with col2:
     st.markdown("""
     **파티마**는 1917년 성모 마리아가 세 명의 어린 목동에게 발현했다고 전해지는 **가톨릭 순례지**입니다.
@@ -319,8 +319,8 @@ st.header("🏛️ 9. 에보라 (Évora)")
 st.subheader("알렌테주 지방의 역사 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="에보라 로마 신전")
-    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="뼈 예배당 (일반적인 에보라 전경)")
+    st.image("https://images.pexels.com/photos/10313083/pexels-photo-10313083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="에보라 로마 신전 (Templo Romano de Évora)")
+    st.image("https://images.pexels.com/photos/10313097/pexels-photo-10313097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="에보라 뼈 예배당 (Capela dos Ossos)")
 with col2:
     st.markdown("""
     **알렌테주 지방**의 중심부에 위치한 **에보라**는 유네스코 세계문화유산으로 지정된 고대 도시입니다.
@@ -355,8 +355,8 @@ st.header("🌺 10. 마데이라 제도 (Madeira Islands)")
 st.subheader("대서양의 진주, 꽃과 절경의 섬")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.unsplash.com/photo-1621213451556-c7b415a72c1c?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="카보 지랑")
-    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="푼샬 항구 (마데이라 풍경)")
+    st.image("https://images.pexels.com/photos/10313105/pexels-photo-10313105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="마데이라 카보 지랑 (Cabo Girão) 절벽")
+    st.image("https://images.pexels.com/photos/10313084/pexels-photo-10313084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="푼샬 (Funchal) 항구와 도시 전경")
 with col2:
     st.markdown("""
     **대서양**에 위치한 **마데이라 제도**는 '대서양의 진주'라고 불리며,
@@ -393,7 +393,7 @@ st.header("✈️ 여행 팁")
 st.markdown("""
 * **언어:** 포르투갈어 (주요 관광지에서는 영어가 잘 통합니다.)
 * **통화:** 유로 (EUR)
-* **교통:** 도시간 이동은 기차나 버스를 이용하고, 도시 내에서는 대중교통(트램, 지하철, 버스)을 이용하는 것이 편리합니다. 렌터카는 알가르베 지역이나 근교 여행에 좋습니다.
+* **교통:** 도시간 이동은 기차나 버스를 이용하고, 도시 내에서는 대중교통(트램, 지하철, 버스)을 이용하는 것이 편리해요. 렌터카는 알가르베 지역이나 근교 여행에 좋습니다.
 * **음식:** **해산물 요리**, 바칼라우(대구 요리), **에그타르트(Pastel de Nata)**, 포트 와인 등 다양한 미식을 즐겨보세요.
 * **날씨:** 연중 온화한 기후를 보이지만, 여름에는 덥고 겨울에는 비가 올 수 있으니 여행 시기에 맞춰 옷을 준비하세요.
 * **아줄레주(Azulejo):** 포르투갈을 대표하는 아름다운 타일 예술입니다. 건물 외벽이나 실내 장식에서 쉽게 찾아볼 수 있습니다.
