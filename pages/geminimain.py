@@ -13,7 +13,7 @@ st.markdown("""
 
 # --- 서론 ---
 st.header("✨ 포르투갈, 매력적인 여행지")
-st.image("https://images.pexels.com/photos/10312601/pexels-photo-10312601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="리스본의 25 데 아브릴 다리와 크리스투 헤이 전경")
+st.image("https://d3b39vpyptsv01.cloudfront.net/photo/1/2/fbf1131576abb61595bb83be8374c224.jpg", caption="리스본의 25 데 아브릴 다리와 크리스투 헤이 전경")
 st.markdown("""
 **포르투갈**은 풍부한 역사, 아름다운 해안선, 맛있는 음식, 그리고 활기찬 문화가 어우러진 매력적인 나라입니다.
 고대 로마 유적부터 중세 성곽, 화려한 마누엘 양식 건축물까지 다양한 볼거리를 제공하며,
@@ -27,8 +27,8 @@ st.header("🏰 1. 리스본 (Lisbon)")
 st.subheader("포르투갈의 활기찬 수도")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.pexels.com/photos/13593026/pexels-photo-13593026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="벨렝 탑 (Torre de Belém)")
-    st.image("https://images.pexels.com/photos/13600100/pexels-photo-13600100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="리스본 대성당 (Sé de Lisboa)")
+    st.image("https://images.pexels.com/photos/461936/pexels-photo-461936.jpeg?auto=compress&cs=tinysrgb&w=600", caption="벨렝 탑 (Torre de Belém)")
+    st.image("https://www.windsortour.co.kr/images/area_img/PT/LIS/PTLIS3201525_0001.jpg?CMD=resize&width=100%", caption="리스본 대성당 (Sé de Lisboa)")
 with col2:
     st.markdown("""
     **리스본**은 포르투갈의 수도이자 가장 큰 도시입니다. 테주 강변에 위치한 언덕 도시로, 아름다운 전망과 활기찬 분위기가 특징입니다.
@@ -66,8 +66,8 @@ st.header("🍷 2. 포르투 (Porto)")
 st.subheader("도우루 강의 도시, 포트 와인의 고향")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.pexels.com/photos/2085376/pexels-photo-2085376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="포르투 리베이라 지구")
-    st.image("https://images.pexels.com/photos/10313017/pexels-photo-10313017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="동 루이스 1세 다리")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHWXbTZ5jdU3Kf8zmirvOy3vbBHL0cDwe_g&s", caption="포르투 리베이라 지구")
+    st.image("https://images.pexels.com/photos/2549573/pexels-photo-2549573.jpeg?auto=compress&cs=tinysrgb&w=600", caption="동 루이스 1세 다리")
 with col2:
     st.markdown("""
     **포르투갈 북부**의 주요 도시이자 **포트 와인**의 본고장인 **포르투**는 도우루 강변의 아름다운 풍경과 역사적인 건축물로 유명합니다.
@@ -104,8 +104,8 @@ st.header(" fairytale 3. 신트라 (Sintra)")
 st.subheader("동화 같은 성들이 있는 로맨틱한 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.pexels.com/photos/10313010/pexels-photo-10313010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="페나 성 (Palácio Nacional da Pena)")
-    st.image("https://images.pexels.com/photos/10312959/pexels-photo-10312959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="킨타 다 헤갈레이라 (Quinta da Regaleira)")
+    st.image("https://images.pexels.com/photos/30380673/pexels-photo-30380673/free-photo-of-tourists-explore-national-palace-of-pena-sintra.jpeg?auto=compress&cs=tinysrgb&w=600", caption="페나 성 (Palácio Nacional da Pena)")
+    st.image("https://media.istockphoto.com/id/1167644659/ko/%EC%82%AC%EC%A7%84/%EC%8B%A0%ED%8A%B8%EB%9D%BC%EC%9D%98-%ED%80%B8%ED%83%80-%EB%8B%A4-%EB%A0%88%EA%B0%88%EB%A0%88%EC%9D%B4%EB%9D%BC-%ED%8F%AC%EB%A5%B4%ED%88%AC%EA%B0%88-%EB%A6%AC%EC%8A%A4%EB%B3%B8-%EA%B7%BC%EC%B2%98.jpg?s=170667a&w=0&k=20&c=RHzLKBn5jU-vefE5TZfvonM-Ni3_H_M3HEzEg4JQlMM=", caption="킨타 다 헤갈레이라 (Quinta da Regaleira)")
 with col2:
     st.markdown("""
     **리스본 근교**에 위치한 **신트라**는 유네스코 세계문화유산으로 지정된 로맨틱한 산악 도시입니다.
@@ -140,8 +140,8 @@ st.header("🏖️ 4. 파루 & 알가르베 (Faro & Algarve)")
 st.subheader("아름다운 해변과 햇살 가득한 남부 지역")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://images.pexels.com/photos/10313106/pexels-photo-10313106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="알가르베 해안선")
-    st.image("https://images.pexels.com/photos/10312999/pexels-photo-10312999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", caption="파루 구시가지 (Cidade Velha de Faro)")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLoyJRWTfyB0b0FOmIw7s-dVyTvFeaJ2shA&s", caption="알가르베 해안선")
+    st.image("https://images.pexels.com/photos/2602791/pexels-photo-2602791.jpeg?auto=compress&cs=tinysrgb&w=600", caption="파루 구시가지 (Cidade Velha de Faro)")
 with col2:
     st.markdown("""
     **포르투갈 최남단**에 위치한 **알가르베** 지역은 세계적으로 유명한 아름다운 해변과 골프 코스로 명성이 높습니다.
