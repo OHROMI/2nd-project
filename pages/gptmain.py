@@ -20,7 +20,7 @@ tourist_spots = [
         "name": "신트라 - 페나 궁전",
         "location": [38.7876, -9.3904],
         "description": "동화 속 궁전 같은 페나 궁전은 다양한 건축 양식이 혼합된 아름다운 궁전으로, 신트라 산 정상에 위치해 멋진 전망을 자랑합니다.",
-        "image": https://images.pexels.com/photos/30109751/pexels-photo-30109751/free-photo-of-pena-palace-architectural-beauty-in-sintra-portugal.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "image": "https://images.pexels.com/photos/30380673/pexels-photo-30380673/free-photo-of-tourists-explore-national-palace-of-pena-sintra.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "라구스 - 포르투갈 남부 해안",
