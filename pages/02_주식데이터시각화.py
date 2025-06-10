@@ -1,100 +1,109 @@
 import streamlit as st
 import yfinance as yf
-import plotly.graph_objects as go
 import pandas as pd
+import plotly.graph_objects as go
 from datetime import datetime, timedelta
 
-# --- 글로벌 시가총액 TOP 10 기업 (예시, 실제 데이터와 다를 수 있음) ---
-# 2025년 6월 10일 기준 실시간 TOP 10을 가져올 수 없으므로, 일반적으로 TOP 기업들을 가정하여 사용합니다.
-# 실제 배포 시에는 최신 데이터를 반영할 수 있도록 수동으로 업데이트하거나,
-# 별도의 API를 통해 최신 시가총액 데이터를 가져오는 로직을 추가해야 합니다.
-TOP_10_COMPANIES = {
-    "AAPL": "Apple Inc.",
-    "MSFT": "Microsoft Corp.",
-    "NVDA": "NVIDIA Corp.",
-    "GOOGL": "Alphabet Inc. (Class A)",
-    "GOOG": "Alphabet Inc. (Class C)",
-    "AMZN": "Amazon.com Inc.",
-    "META": "Meta Platforms Inc.",
-    "TSLA": "Tesla Inc.",
-    "BRK-B": "Berkshire Hathaway Inc. (Class B)",
-    "JPM": "JPMorgan Chase & Co.",
-    "XOM": "Exxon Mobil Corp.", # 예시로 1개 더 추가 (TOP 10 변동성 고려)
-    "LLY": "Eli Lilly and Company", # 예시로 1개 더 추가 (TOP 10 변동성 고려)
-}
+def get_top_10_market_cap_tickers():
+    """
+    글로벌 시가총액 상위 기업의 티커를 반환합니다.
+    (주의: yfinance에서 직접적으로 실시간 시가총액 순위를 제공하지 않으므로,
+    일반적으로 알려진 시가총액 상위 기업들을 수동으로 지정합니다.
+    실제 시가총액 순위는 변동될 수 있습니다.)
+    """
+    # 2024-2025년 기준 일반적으로 알려진 글로벌 시가총액 상위 기업들 (변동 가능성 있음)
+    # yfinance 티커를 사용합니다.
+    return {
+        "Apple": "AAPL",
+        "Microsoft": "MSFT",
+        "NVIDIA": "NVDA",
+        "Alphabet (Google)": "GOOGL", # 또는 GOOG
+        "Amazon": "AMZN",
+        "Meta Platforms": "META",
+        "Berkshire Hathaway": "BRK-A", # 또는 BRK-B (클래스 B 주식)
+        "Eli Lilly and Company": "LLY",
+        "TSMC": "TSM",
+        "Johnson & Johnson": "JNJ"
+    }
 
-st.set_page_config(layout="wide")
-st.title("📈 글로벌 시가총액 TOP 기업 주가 변화 (최근 3년)")
-st.markdown("현재 날짜 (2025년 6월 10일)를 기준으로 최근 3년간의 주가 변화를 시각화합니다.")
+def fetch_stock_data(ticker, period="3y"):
+    """
+    주가 데이터를 yfinance에서 가져옵니다.
+    """
+    try:
+        data = yf.download(ticker, period=period)
+        return data['Adj Close']
+    except Exception as e:
+        st.error(f"'{ticker}' 데이터를 가져오는 중 오류 발생: {e}")
+        return pd.Series()
 
-# --- 날짜 범위 설정 ---
-end_date = datetime.now() # 현재 날짜
-start_date = end_date - timedelta(days=3 * 365) # 3년 전 (윤년 고려 안 함)
+def app():
+    st.set_page_config(layout="wide")
+    st.title("글로벌 시가총액 Top 10 기업 주가 변화 (최근 3년)")
 
-st.sidebar.header("설정")
-selected_companies = st.sidebar.multiselect(
-    "확인할 기업을 선택하세요:",
-    options=list(TOP_10_COMPANIES.keys()),
-    default=list(TOP_10_COMPANIES.keys())[:5] # 기본적으로 상위 5개 선택
-)
+    st.write(
+        """
+        이 앱은 `yfinance`를 사용하여 글로벌 시가총액 상위 10개 기업(미리 정의된 리스트)의
+        지난 3년간의 주가 변화를 시각화합니다.
+        데이터 로딩에는 다소 시간이 걸릴 수 있습니다.
+        """
+    )
 
-st.sidebar.info(
-    "기업 목록은 **예시**입니다. 실시간 시가총액 TOP 10은 변동할 수 있습니다."
-    " 정확한 목록은 금융 정보 사이트를 참고해주세요."
-)
+    tickers_info = get_top_10_market_cap_tickers()
+    company_names = list(tickers_info.keys())
+    tickers = list(tickers_info.values())
 
-if not selected_companies:
-    st.warning("최소 하나 이상의 기업을 선택해주세요.")
-else:
     stock_data = {}
-    progress_bar = st.progress(0)
-    status_text = st.empty()
+    with st.spinner("주가 데이터를 불러오는 중..."):
+        for name, ticker in tickers_info.items():
+            stock_data[name] = fetch_stock_data(ticker, period="3y")
 
-    for i, ticker in enumerate(selected_companies):
-        status_text.text(f"데이터 다운로드 중: {TOP_10_COMPANIES[ticker]} ({ticker})")
-        try:
-            # yfinance로 주가 데이터 가져오기
-            data = yf.download(ticker, start=start_date, end=end_date)
-            if not data.empty:
-                # 종가만 사용 (Adj Close가 분할/배당 조정된 종가)
-                stock_data[ticker] = data['Adj Close']
-            else:
-                st.warning(f"{TOP_10_COMPANIES[ticker]} ({ticker}) 데이터가 없습니다. 티커를 확인해주세요.")
-        except Exception as e:
-            st.error(f"{TOP_10_COMPANIES[ticker]} ({ticker}) 데이터 다운로드 중 오류 발생: {e}")
-        progress_bar.progress((i + 1) / len(selected_companies))
+    # 모든 데이터가 성공적으로 로드되었는지 확인
+    if not all(not data.empty for data in stock_data.values()):
+        st.warning("일부 또는 모든 기업의 데이터를 가져오지 못했습니다. 앱을 다시 시작하거나 인터넷 연결을 확인해주세요.")
+        return
 
-    if stock_data:
-        # 모든 주식 데이터를 하나의 DataFrame으로 합치기 (각 기업의 종가)
-        df_combined = pd.DataFrame(stock_data)
+    # 데이터프레임으로 통합
+    df_stock = pd.DataFrame(stock_data)
+    df_stock.index.name = 'Date'
 
-        # 기준일(3년 전)의 종가로 정규화 (모든 주가를 기준일 대비 변화율로 표시)
-        # 이렇게 하면 서로 다른 가격대의 주식들을 한 그래프에서 비교하기 용이합니다.
-        df_normalized = df_combined / df_combined.iloc[0] * 100 # 기준일을 100으로 설정
+    st.subheader("주가 추이")
 
-        st.subheader("기업별 주가 변화 추이 (3년 전 대비 정규화)")
-        st.write(f"기간: {start_date.strftime('%Y-%m-%d')} ~ {end_date.strftime('%Y-%m-%d')}")
+    # 인터랙티브한 Plotly 그래프 생성
+    fig = go.Figure()
 
-        fig = go.Figure()
-        for ticker in df_normalized.columns:
-            fig.add_trace(go.Scatter(x=df_normalized.index, y=df_normalized[ticker],
-                                     mode='lines',
-                                     name=f"{TOP_10_COMPANIES[ticker]} ({ticker})"))
+    for company_name in company_names:
+        if company_name in df_stock.columns:
+            fig.add_trace(go.Scatter(
+                x=df_stock.index,
+                y=df_stock[company_name],
+                mode='lines',
+                name=company_name
+            ))
 
-        fig.update_layout(
-            hovermode="x unified", # 마우스 오버 시 모든 라인의 데이터 표시
-            xaxis_title="날짜",
-            yaxis_title="정규화된 주가 (3년 전 = 100)",
-            legend_title="기업",
-            height=600,
-            xaxis_rangeslider_visible=False # 아래 슬라이더 숨기기
-        )
-        st.plotly_chart(fig, use_container_width=True)
+    fig.update_layout(
+        title="글로벌 시가총액 Top 10 기업의 최근 3년간 주가 변화",
+        xaxis_title="날짜",
+        yaxis_title="종가 (USD)",
+        hovermode="x unified",
+        legend_title="기업",
+        height=600
+    )
 
-        st.subheader("원시 주가 데이터 (조정 종가)")
-        st.dataframe(df_combined.head())
-    else:
-        st.info("선택된 기업의 데이터를 가져오지 못했습니다.")
+    st.plotly_chart(fig, use_container_width=True)
 
-st.markdown("---")
-st.markdown("본 앱은 교육 및 정보 제공 목적으로만 사용되며, 투자 조언이 아닙니다.")
+    st.subheader("데이터 테이블")
+    st.dataframe(df_stock.tail()) # 최근 데이터 일부만 보여줍니다.
+
+    st.markdown(
+        """
+        ---
+        **참고:**
+        * 표시된 시가총액 Top 10 기업 목록은 일반적인 정보를 바탕으로 하며, 실시간 시가총액 순위와 다를 수 있습니다. `yfinance`는 직접적인 실시간 시가총액 순위 API를 제공하지 않습니다.
+        * 데이터는 `yfinance`에서 제공하는 '수정 종가(Adjusted Close)'를 사용합니다.
+        * 주식 분할, 배당 등으로 인해 주가가 조정될 수 있습니다.
+        """
+    )
+
+if __name__ == "__main__" :
+    app()
