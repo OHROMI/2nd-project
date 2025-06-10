@@ -8,25 +8,25 @@ tourist_spots = [
         "name": "리스본 - 벨렘 타워",
         "location": [38.6916, -9.2163],
         "description": "벨렘 타워는 16세기에 지어진 방어탑으로, 리스본의 상징적인 건축물 중 하나입니다. 유네스코 세계유산으로 등재되어 있으며, 마누엘 양식의 대표적인 예입니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Torre_de_Bel%C3%A9m_%28Lisboa%29.jpg/800px-Torre_de_Bel%C3%A9m_%28Lisboa%29.jpg"
+        "image": "https://images.pexels.com/photos/461936/pexels-photo-461936.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "포르투 - 루이스 1세 다리",
         "location": [41.1406, -8.6110],
         "description": "포르투의 상징적인 철교로, 도루 강을 가로지르며 위층과 아래층 모두 보행과 차량이 이용 가능합니다. 야경이 특히 아름답습니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ponte_Lu%C3%ADs_I_-_Porto.jpg/800px-Ponte_Lu%C3%ADs_I_-_Porto.jpg"
+        "image": "https://images.pexels.com/photos/2549573/pexels-photo-2549573.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "신트라 - 페나 궁전",
         "location": [38.7876, -9.3904],
         "description": "동화 속 궁전 같은 페나 궁전은 다양한 건축 양식이 혼합된 아름다운 궁전으로, 신트라 산 정상에 위치해 멋진 전망을 자랑합니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Palacio_Nacional_da_Pena_2015.jpg/800px-Palacio_Nacional_da_Pena_2015.jpg"
+        "image": https://images.pexels.com/photos/30109751/pexels-photo-30109751/free-photo-of-pena-palace-architectural-beauty-in-sintra-portugal.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "name": "라구스 - 포르투갈 남부 해안",
         "location": [37.1016, -8.6742],
         "description": "라구스는 아름다운 해변과 해식 동굴, 그리고 절벽 경관으로 유명한 알가르브 지역의 대표적인 휴양지입니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lagos_Ponta_da_Piedade_2013.jpg/800px-Lagos_Ponta_da_Piedade_2013.jpg"
+        "image": "https://images.pexels.com/photos/1368502/pexels-photo-1368502.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
 ]
 
