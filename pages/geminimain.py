@@ -13,9 +13,9 @@ st.markdown("""
 
 # --- 서론 ---
 st.header("✨ 포르투갈, 매력적인 여행지")
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ponte_25_de_Abril_and_Cristo_Rei.jpg/1920px-Ponte_25_de_Abril_and_Cristo_Rei.jpg", caption="리스본 25 데 아브릴 다리와 크리스투 헤이")
+st.image("https://images.unsplash.com/photo-1601009180735-a131804f5e1f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리스본 25 데 아브릴 다리와 크리스투 헤이")
 st.markdown("""
-포르투갈은 풍부한 역사, 아름다운 해안선, 맛있는 음식, 그리고 활기찬 문화가 어우러진 매력적인 나라입니다.
+**포르투갈**은 풍부한 역사, 아름다운 해안선, 맛있는 음식, 그리고 활기찬 문화가 어우러진 매력적인 나라입니다.
 고대 로마 유적부터 중세 성곽, 화려한 마누엘 양식 건축물까지 다양한 볼거리를 제공하며,
 따뜻한 기후와 친절한 사람들 덕분에 방문객들에게 잊지 못할 경험을 선사합니다.
 """)
@@ -27,11 +27,11 @@ st.header("🏰 1. 리스본 (Lisbon)")
 st.subheader("포르투갈의 활기찬 수도")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bel%C3%A9m_Tower_2016.jpg/1024px-Bel%C3%A9m_Tower_2016.jpg", caption="벨렝 탑")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lisbon_Cathedral.jpg/1024px-Lisbon_Cathedral.jpg", caption="리스본 대성당")
+    st.image("https://images.unsplash.com/photo-1549429532-68048227d825?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="벨렝 탑")
+    st.image("https://images.unsplash.com/photo-1606771037568-15401340b033?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리스본 대성당")
 with col2:
     st.markdown("""
-    리스본은 포르투갈의 수도이자 가장 큰 도시입니다. 테주 강변에 위치한 언덕 도시로, 아름다운 전망과 활기찬 분위기가 특징입니다.
+    **리스본**은 포르투갈의 수도이자 가장 큰 도시입니다. 테주 강변에 위치한 언덕 도시로, 아름다운 전망과 활기찬 분위기가 특징입니다.
 
     **주요 관광지:**
     * **벨렝 탑 (Belém Tower):** 유네스코 세계문화유산으로 지정된 마누엘 양식의 아름다운 요새. 대항해시대의 상징입니다.
@@ -43,10 +43,10 @@ with col2:
     * **트램 28 (Tram 28):** 리스본의 언덕과 좁은 골목길을 누비며 주요 관광지를 지나는 노선으로, 그 자체로도 관광 명물입니다.
 
     **추천 활동:**
-    * 알파마 지구에서 파두 공연 감상하기
-    * 벨렝에서 에그타르트(Pastel de Belém) 맛보기
+    * 알파마 지구에서 **파두 공연** 감상하기
+    * 벨렝에서 **에그타르트(Pastel de Belém)** 맛보기
     * 산타 주스타 엘리베이터를 타고 리스본 시내 전망 감상하기
-    * 트램 28을 타고 리스본 골목길 탐험하기
+    * **트램 28**을 타고 리스본 골목길 탐험하기
     """)
 
 # 리스본 지도
@@ -66,11 +66,11 @@ st.header("🍷 2. 포르투 (Porto)")
 st.subheader("도우루 강의 도시, 포트 와인의 고향")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Porto%2C_Portugal_-_Ribeira_2.jpg/1024px-Porto%2C_Portugal_-_Ribeira_2.jpg", caption="리베이라 지구")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ponte_Dom_Lu%C3%ADs_I_%28cropped%29.jpg/1024px-Ponte_Dom_Lu%C3%ADs_I_%28cropped%29.jpg", caption="동 루이스 1세 다리")
+    st.image("https://images.unsplash.com/photo-1598466100236-81585816bb6e?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="리베이라 지구")
+    st.image("https://images.unsplash.com/photo-1582236371755-d3e91129aa24?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="동 루이스 1세 다리")
 with col2:
     st.markdown("""
-    포르투갈 북부의 주요 도시이자 포트 와인의 본고장인 포르투는 도우루 강변의 아름다운 풍경과 역사적인 건축물로 유명합니다.
+    **포르투갈 북부**의 주요 도시이자 **포트 와인**의 본고장인 **포르투**는 도우루 강변의 아름다운 풍경과 역사적인 건축물로 유명합니다.
 
     **주요 관광지:**
     * **리베이라 지구 (Ribeira District):** 유네스코 세계문화유산으로 지정된 포르투의 구시가지로, 다채로운 색깔의 건물들과 강변 카페들이 인상적입니다.
@@ -81,10 +81,10 @@ with col2:
     * **포트 와인 셀러 (Port Wine Cellars):** 도우루 강 건너편 빌라 노바 데 가이아(Vila Nova de Gaia)에 위치하며, 포트 와인 시음 투어를 즐길 수 있습니다.
 
     **추천 활동:**
-    * 도우루 강변에서 크루즈 타기
-    * 포트 와인 셀러에서 와인 시음 투어 참여하기
+    * **도우루 강변**에서 크루즈 타기
+    * **포트 와인 셀러**에서 와인 시음 투어 참여하기
     * 동 루이스 1세 다리 위에서 일몰 감상하기
-    * 렐루 서점에서 독특한 분위기 즐기기
+    * **렐루 서점**에서 독특한 분위기 즐기기
     """)
 
 # 포르투 지도
@@ -104,11 +104,11 @@ st.header(" fairytale 3. 신트라 (Sintra)")
 st.subheader("동화 같은 성들이 있는 로맨틱한 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pal%C3%A1cio_da_Pena_-_Sintra%2C_Portugal_-_July_2016.jpg/1024px-Pal%C3%A1cio_da_Pena_-_Sintra%2C_Portugal_-_July_2016.jpg", caption="페나 성")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quinta_da_Regaleira_Palace_Entrance.jpg/1024px-Quinta_da_Regaleira_Palace_Entrance.jpg", caption="킨타 다 헤갈레이라")
+    st.image("https://images.unsplash.com/photo-1550974864-f6515b6728c3?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="페나 성")
+    st.image("https://images.unsplash.com/photo-1616428616182-3682a853751a?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="킨타 다 헤갈레이라")
 with col2:
     st.markdown("""
-    리스본 근교에 위치한 신트라는 유네스코 세계문화유산으로 지정된 로맨틱한 산악 도시입니다.
+    **리스본 근교**에 위치한 **신트라**는 유네스코 세계문화유산으로 지정된 로맨틱한 산악 도시입니다.
     이곳은 동화 같은 궁전, 성, 그리고 울창한 정원으로 가득합니다.
 
     **주요 관광지:**
@@ -118,9 +118,9 @@ with col2:
     * **킨타 다 헤갈레이라 (Quinta da Regaleira):** 신비로운 정원, 동굴, 지하 통로, 그리고 이니시에이션 우물(Initiation Well)로 유명한 사유지입니다.
 
     **추천 활동:**
-    * 페나 성에서 사진 찍고 동화 같은 분위기 만끽하기
-    * 킨타 다 헤갈레이라의 지하 통로와 우물 탐험하기
-    * 무어 성에서 신트라와 주변 경관 조망하기
+    * **페나 성**에서 사진 찍고 동화 같은 분위기 만끽하기
+    * **킨타 다 헤갈레이라**의 지하 통로와 우물 탐험하기
+    * **무어 성**에서 신트라와 주변 경관 조망하기
     * 신트라 마을에서 현지 특산품 쇼핑하기
     """)
 
@@ -140,12 +140,12 @@ st.header("🏖️ 4. 파루 & 알가르베 (Faro & Algarve)")
 st.subheader("아름다운 해변과 햇살 가득한 남부 지역")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Algarve_Coastline.jpg/1024px-Algarve_Coastline.jpg", caption="알가르베 해안선")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Faro_Cathedral_view_from_bell_tower.jpg/1024px-Faro_Cathedral_view_from_bell_tower.jpg", caption="파루 대성당")
+    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="알가르베 해안선")
+    st.image("https://images.unsplash.com/photo-1594950005081-30c1737e403d?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="파루 구시가지")
 with col2:
     st.markdown("""
-    포르투갈 최남단에 위치한 알가르베 지역은 세계적으로 유명한 아름다운 해변과 골프 코스로 명성이 높습니다.
-    주요 도시인 파루는 이 지역의 관문 역할을 합니다.
+    **포르투갈 최남단**에 위치한 **알가르베** 지역은 세계적으로 유명한 아름다운 해변과 골프 코스로 명성이 높습니다.
+    주요 도시인 **파루**는 이 지역의 관문 역할을 합니다.
 
     **주요 관광지:**
     * **파루 구시가지 (Faro Old Town):** 로마 시대 유적과 아름다운 바로크 양식의 건축물들이 어우러진 매력적인 구시가지입니다.
@@ -155,9 +155,9 @@ with col2:
     * **세비야 (Seville, 스페인):** 파루에서 차로 약 2시간 거리에 스페인의 아름다운 도시 세비야가 있어 당일치기 여행도 가능합니다.
 
     **추천 활동:**
-    * 알가르베 해변에서 일광욕 및 해수욕 즐기기
-    * 보트 투어를 통해 폰타 다 피에다데와 베나길 동굴 탐험하기
-    * 파루 구시가지의 역사적인 골목길 산책하기
+    * **알가르베 해변**에서 일광욕 및 해수욕 즐기기
+    * 보트 투어를 통해 **폰타 다 피에다데**와 **베나길 동굴** 탐험하기
+    * **파루 구시가지**의 역사적인 골목길 산책하기
     * 골프를 즐기는 사람이라면 세계적인 수준의 골프 코스에서 라운딩하기
     """)
 
@@ -177,12 +177,12 @@ st.header("🛶 5. 아베이루 (Aveiro)")
 st.subheader("포르투갈의 베네치아")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Moliceiros_Aveiro.jpg/1024px-Moliceiros_Aveiro.jpg", caption="몰리세이루스 배")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aveiro_Canal_with_Art_Nouveau_buildings.jpg/1024px-Aveiro_Canal_with_Art_Nouveau_buildings.jpg", caption="아르누보 건물")
+    st.image("https://images.unsplash.com/photo-1595166297072-f852d4323c2a?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="몰리세이루스 배")
+    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="운하와 아르누보 건물")
 with col2:
     st.markdown("""
-    포르투갈 중부에 위치한 아베이루는 "포르투갈의 베네치아"라고 불리며,
-    아름다운 운하와 독특한 모양의 배인 '몰리세이루스(Moliceiros)'로 유명합니다.
+    **포르투갈 중부**에 위치한 **아베이루**는 "포르투갈의 베네치아"라고 불리며,
+    아름다운 운하와 독특한 모양의 배인 **'몰리세이루스(Moliceiros)'**로 유명합니다.
 
     **주요 관광지:**
     * **아베이루 운하 (Aveiro Canals):** 도시를 가로지르는 운하를 몰리세이루스 배를 타고 유람하는 것이 아베이루의 주요 매력입니다.
@@ -191,9 +191,9 @@ with col2:
     * **아베이루 박물관 (Aveiro Museum):** 과거 수도원이었던 곳으로, 아베이루의 역사와 예술 작품을 전시하고 있습니다.
 
     **추천 활동:**
-    * 몰리세이루스 배를 타고 운하 유람하기
-    * 코스타 노바의 줄무늬 집들 앞에서 기념사진 찍기
-    * 아베이루의 특산품인 '오보스 몰레스(Ovos Moles)' 맛보기 (계란 노른자와 설탕으로 만든 달콤한 디저트)
+    * **몰리세이루스 배**를 타고 운하 유람하기
+    * **코스타 노바**의 줄무늬 집들 앞에서 기념사진 찍기
+    * 아베이루의 특산품인 **'오보스 몰레스(Ovos Moles)'** 맛보기 (계란 노른자와 설탕으로 만든 달콤한 디저트)
     * 아르누보 건축물 감상하며 도시 산책하기
     """)
 
@@ -212,23 +212,23 @@ st.header(" 🎓 6. 코임브라 (Coimbra)")
 st.subheader("유서 깊은 대학 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/University_of_Coimbra_-_General_Library.jpg/1024px-University_of_Coimbra_-_General_Library.jpg", caption="코임브라 대학교")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coimbra_Se_Velha.jpg/1024px-Coimbra_Se_Velha.jpg", caption="코임브라 구 대성당")
+    st.image("https://images.unsplash.com/photo-1629851458992-8015cf137ff7?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="코임브라 대학교")
+    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="코임브라 구 대성당")
 with col2:
     st.markdown("""
-    포르투갈 중부에 위치한 코임브라는 오랜 역사와 전통을 자랑하는 대학 도시입니다.
-    포르투갈의 옛 수도였으며, 유네스코 세계문화유산으로 등재된 코임브라 대학교가 유명합니다.
+    **포르투갈 중부**에 위치한 **코임브라**는 오랜 역사와 전통을 자랑하는 대학 도시입니다.
+    포르투갈의 옛 수도였으며, 유네스코 세계문화유산으로 등재된 **코임브라 대학교**가 유명합니다.
 
     **주요 관광지:**
-    * **코임브라 대학교 (University of Coimbra):** 1290년에 설립된 포르투갈에서 가장 오래된 대학으로, 바로크 양식의 조아니나 도서관(Biblioteca Joanina)이 특히 유명합니다.
+    * **코임브라 대학교 (University of Coimbra):** 1290년에 설립된 포르투갈에서 가장 오래된 대학으로, 바로크 양식의 **조아니나 도서관(Biblioteca Joanina)**이 특히 유명합니다.
     * **조아니나 도서관 (Biblioteca Joanina):** 코임브라 대학교 내에 위치한 세계에서 가장 아름다운 도서관 중 하나입니다. 화려한 장식과 수많은 고서들이 인상적입니다.
     * **코임브라 구 대성당 (Sé Velha de Coimbra):** 로마네스크 양식의 견고한 요새형 대성당으로, 오랜 역사를 간직하고 있습니다.
     * **산타 크루즈 수도원 (Santa Cruz Monastery):** 포르투갈의 초대 왕인 아폰수 1세의 묘지가 있는 곳입니다.
     * **소규모 포르투갈 (Portugal dos Pequenitos):** 포르투갈의 역사, 문화, 건축물을 미니어처로 재현해 놓은 테마파크입니다.
 
     **추천 활동:**
-    * 코임브라 대학교 캠퍼스 투어하기
-    * 조아니나 도서관의 웅장함 감상하기
+    * **코임브라 대학교** 캠퍼스 투어하기
+    * **조아니나 도서관**의 웅장함 감상하기
     * 포르투갈 전통 의상을 입은 대학생들의 모습 구경하기
     * 몬데고 강변에서 여유로운 시간 보내기
     """)
@@ -249,11 +249,11 @@ st.header(" medieval 7. 오비두스 (Óbidos)")
 st.subheader("중세 성벽 마을")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Obidos_Castle.jpg/1024px-Obidos_Castle.jpg", caption="오비두스 성")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Obidos_village_view_from_walls.jpg/1024px-Obidos_village_view_from_walls.jpg", caption="오비두스 마을 전경")
+    st.image("https://images.unsplash.com/photo-1550974864-f6515b6728c3?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="오비두스 성")
+    st.image("https://images.unsplash.com/photo-1614275306354-150244439c36?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="오비두스 마을 전경")
 with col2:
     st.markdown("""
-    리스본에서 북쪽으로 약 1시간 거리에 위치한 오비두스는 완벽하게 보존된 중세 성벽 마을입니다.
+    **리스본에서 북쪽**으로 약 1시간 거리에 위치한 **오비두스**는 완벽하게 보존된 중세 성벽 마을입니다.
     아름다운 하얀 집들과 꽃으로 장식된 골목길이 매력적인 곳입니다.
 
     **주요 관광지:**
@@ -263,9 +263,9 @@ with col2:
     * **좁은 골목길과 상점들:** 성벽 안의 좁은 골목길을 따라 아기자기한 상점과 카페들이 줄지어 있습니다.
 
     **추천 활동:**
-    * 성벽 위를 걸으며 마을 전체와 주변 풍경 감상하기
+    * **성벽 위**를 걸으며 마을 전체와 주변 풍경 감상하기
     * 마을 골목길을 거닐며 아기자기한 상점 구경하기
-    * 오비두스의 특산품인 '진자(Ginja)' 맛보기 (체리 리큐어)
+    * 오비두스의 특산품인 **'진자(Ginja)'** 맛보기 (체리 리큐어)
     * 로맨틱한 분위기에서 식사 즐기기
     """)
 
@@ -283,11 +283,11 @@ st.header("🙏 8. 파티마 (Fátima)")
 st.subheader("성모 발현지, 종교적 순례지")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Shrine_of_F%C3%A1tima_%28Sanctuary_of_Our_Lady_of_F%C3%A1tima%29_2016.jpg/1024px-Shrine_of_F%C3%A1tima_%28Sanctuary_of_Our_Lady_of_F%C3%A1tima%29_2016.jpg", caption="파티마 성모 발현 기념 성당")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Rosario_de_F%C3%A1tima.jpg/1024px-Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Rosario_de_F%C3%A1tima.jpg", caption="로사리오의 성모 대성당")
+    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="파티마 성모 발현 기념 성당")
+    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="로사리오의 성모 대성당 (일반적인 파티마 전경)")
 with col2:
     st.markdown("""
-    파티마는 1917년 성모 마리아가 세 명의 어린 목동에게 발현했다고 전해지는 가톨릭 순례지입니다.
+    **파티마**는 1917년 성모 마리아가 세 명의 어린 목동에게 발현했다고 전해지는 **가톨릭 순례지**입니다.
     매년 수백만 명의 순례자들이 이곳을 방문합니다.
 
     **주요 관광지:**
@@ -297,8 +297,8 @@ with col2:
     * **발현의 작은 예배당 (Chapel of the Apparitions):** 성모 마리아가 처음 발현했다고 전해지는 자리에 세워진 작은 예배당입니다.
 
     **추천 활동:**
-    * 성모 발현 기념 성당에서 미사 참여하기
-    * 십자가의 길 걷기 (Via Sacra)
+    * **성모 발현 기념 성당**에서 미사 참여하기
+    * **십자가의 길** 걷기 (Via Sacra)
     * 기도하고 묵상하는 시간 가지기
     * 성물 구매하기
     """)
@@ -319,11 +319,11 @@ st.header("🏛️ 9. 에보라 (Évora)")
 st.subheader("알렌테주 지방의 역사 도시")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Templo_romano_de_%C3%89vora_01.jpg/1024px-Templo_romano_de_%C3%89vora_01.jpg", caption="에보라 로마 신전")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Capela_dos_Ossos%2C_Evora.jpg/1024px-Capela_dos_Ossos%2C_Evora.jpg", caption="뼈 예배당")
+    st.image("https://images.unsplash.com/photo-1620359744653-5d519b5c39c4?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="에보라 로마 신전")
+    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="뼈 예배당 (일반적인 에보라 전경)")
 with col2:
     st.markdown("""
-    알렌테주 지방의 중심부에 위치한 에보라는 유네스코 세계문화유산으로 지정된 고대 도시입니다.
+    **알렌테주 지방**의 중심부에 위치한 **에보라**는 유네스코 세계문화유산으로 지정된 고대 도시입니다.
     로마 시대부터 중세, 르네상스 시대에 이르는 다양한 역사적 유적을 간직하고 있습니다.
 
     **주요 관광지:**
@@ -334,8 +334,8 @@ with col2:
     * **에보라 대학교 (University of Évora):** 아름다운 건물과 역사적인 분위기를 자랑하는 대학입니다.
 
     **추천 활동:**
-    * 로마 신전 앞에서 고대 로마의 흔적 느끼기
-    * 뼈 예배당에서 삶과 죽음에 대해 성찰하기
+    * **로마 신전** 앞에서 고대 로마의 흔적 느끼기
+    * **뼈 예배당**에서 삶과 죽음에 대해 성찰하기
     * 에보라 구시가지의 좁은 골목길 산책하며 역사 탐험하기
     * 알렌테주 지방의 맛있는 와인과 올리브 오일 맛보기
     """)
@@ -355,11 +355,11 @@ st.header("🌺 10. 마데이라 제도 (Madeira Islands)")
 st.subheader("대서양의 진주, 꽃과 절경의 섬")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cabo_Girao%2C_Madeira_Island%2C_Portugal_%28PPL3-Altered%29.jpg/1024px-Cabo_Girao%2C_Madeira_Island%2C_Portugal_%28PPL3-Altered%29.jpg", caption="카보 지랑")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Funchal_Harbour.jpg/1024px-Funchal_Harbour.jpg", caption="푼샬 항구")
+    st.image("https://images.unsplash.com/photo-1621213451556-c7b415a72c1c?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="카보 지랑")
+    st.image("https://images.unsplash.com/photo-1596701550994-6b92a4066065?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="푼샬 항구 (마데이라 풍경)")
 with col2:
     st.markdown("""
-    대서양에 위치한 마데이라 제도는 '대서양의 진주'라고 불리며,
+    **대서양**에 위치한 **마데이라 제도**는 '대서양의 진주'라고 불리며,
     아름다운 자연 경관, 독특한 식물군, 그리고 온화한 기후로 유명합니다.
 
     **주요 관광지:**
@@ -371,11 +371,11 @@ with col2:
     * **레바다 (Levadas):** 섬 전체에 퍼져 있는 관개 수로를 따라 걷는 하이킹 코스입니다.
 
     **추천 활동:**
-    * 몬테 케이블카를 타고 푼샬 전경 감상하기
-    * 카보 지랑 스카이워크에서 아찔한 사진 찍기
-    * 레바다 하이킹을 통해 마데이라의 아름다운 자연 속으로 들어가기
-    * 마데이라 와인 시음하기
-    * 전통 토보간(썰매) 체험하기
+    * **몬테 케이블카**를 타고 푼샬 전경 감상하기
+    * **카보 지랑 스카이워크**에서 아찔한 사진 찍기
+    * **레바다 하이킹**을 통해 마데이라의 아름다운 자연 속으로 들어가기
+    * **마데이라 와인** 시음하기
+    * 전통 **토보간(썰매)** 체험하기
     """)
 
 # 마데이라 지도 (중심은 푼샬)
@@ -394,7 +394,7 @@ st.markdown("""
 * **언어:** 포르투갈어 (주요 관광지에서는 영어가 잘 통합니다.)
 * **통화:** 유로 (EUR)
 * **교통:** 도시간 이동은 기차나 버스를 이용하고, 도시 내에서는 대중교통(트램, 지하철, 버스)을 이용하는 것이 편리합니다. 렌터카는 알가르베 지역이나 근교 여행에 좋습니다.
-* **음식:** 해산물 요리, 바칼라우(대구 요리), 에그타르트(Pastel de Nata), 포트 와인 등 다양한 미식을 즐겨보세요.
+* **음식:** **해산물 요리**, 바칼라우(대구 요리), **에그타르트(Pastel de Nata)**, 포트 와인 등 다양한 미식을 즐겨보세요.
 * **날씨:** 연중 온화한 기후를 보이지만, 여름에는 덥고 겨울에는 비가 올 수 있으니 여행 시기에 맞춰 옷을 준비하세요.
 * **아줄레주(Azulejo):** 포르투갈을 대표하는 아름다운 타일 예술입니다. 건물 외벽이나 실내 장식에서 쉽게 찾아볼 수 있습니다.
 """)
