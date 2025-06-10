@@ -3,3 +3,6 @@ streamlit-folium
 yfinance
 plotly
 pandas
+networkx
+matplotlib
+pyvis
