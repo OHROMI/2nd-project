@@ -70,6 +70,12 @@ def show_graph(G):
         node["label"] = f"{node['id']}번"
 
     for edge in net.edges:
+        # NetworkX의 weight 값을 pyvis의 value로 복사
+        if "weight" in edge["data"]:
+            edge["value"] = edge["data"]["weight"]
+        else:
+            edge["value"] = 1
+
         w = edge["value"]
         edge["title"] = f"친밀도 {w}"
         edge["width"] = w
@@ -79,6 +85,7 @@ def show_graph(G):
         html_path = f.name
 
     components.html(open(html_path, "r", encoding="utf-8").read(), height=650)
+
 
 # ------------------ 앱 시작 ------------------
 st.title("🧭 중학생 친밀도 맵")
